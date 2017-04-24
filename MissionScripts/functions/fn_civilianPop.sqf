@@ -1,6 +1,8 @@
 /*
 ElDoktor
-0 call DOK_fnc_civilianPop;
+Group : Civils
+Description : Pop des civils sur les markers commençant par "civil_". Se place dans l'init.sqf.
+Syntax : call DOK_fnc_civilianPop;
 */
 DOK_VAR_civilianManClass = ["C_man_w_worker_F", "C_man_pilot_F", "C_man_1","C_man_1_1_F","C_man_1_2_F",
 						"C_man_1_3_F","C_man_polo_1_F","C_man_polo_2_F","C_man_polo_3_F","C_man_polo_4_F",

@@ -1,3 +1,9 @@
+/*
+Author : ElDoktor
+Group : GAIA
+Initialisation du module GAIA si utilisé avec les autres commandes.
+*/
+
 // We set the markers invisible (if you use more then 100 markers, then increase). Or delete if you want them visible
 DOK_GAIA_var_ZONES = [];
 {

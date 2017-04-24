@@ -1,5 +1,10 @@
 /*
-ElDoktor
+Author : ElDoktor
+Group : Interaction
+Description : met l'unité en mode otage et ajoute une action pour la libérer. Se place dans l'init d'un Game Logic (synchronisé à des unités) ou d'une unité.
+arg1 : objet
+Exemple : met l'unité en mode otage.
+Syntax : this call DOK_fnc_otage;
 */
 if(!isServer)exitWith{};
 

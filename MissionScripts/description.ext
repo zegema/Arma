@@ -11,6 +11,10 @@ class CfgFunctions {
             //Log
             class LOG;
 
+            //Logic / Unit
+            class getUnitOrLogic;
+
+
 			//Artillerie
 			class artyAdd;
 			class artyCall;
@@ -30,10 +34,10 @@ class CfgFunctions {
 			class renfortAdd;
 			class renfortCall;
 
-			//Patrols
+			//Patrouille
 			class patrolAdd;
 
-			//Ambush
+			//Embuscade
 			class ambushAdd;
 
 			//Forftied
@@ -42,9 +46,6 @@ class CfgFunctions {
 			//Unit wait for transport and getout
 			class waitForTransport;
 
-			//Detection onde radio
-			class detectRadio;
-
 			//Renfort sur des points précisé
 			class strikeBack;
 
@@ -52,7 +53,7 @@ class CfgFunctions {
 			//class intellAdd;
 			//class intellAddLocal;
 
-			//Radio
+			//Emetteur
 			class addEmetteur;
 			class checkRadio;
 			class addStackedEventHandler;

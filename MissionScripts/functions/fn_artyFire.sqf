@@ -1,5 +1,7 @@
 /*
 ElDoktor
+Group : Artillerie
+Va rechercher les positions notées sur carte et commençant par "T_" pour faire feu.
 _pos call DOK_fnc_artyFire;
 */
 if(!isServer)exitWith{};
@@ -14,6 +16,5 @@ _this spawn {
 		sleep 1;
 		_arty call DOK_fnc_artyAdd;
 		_markerName remoteExec ["deleteMarker",0];
-
 	};
 };

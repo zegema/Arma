@@ -1,5 +1,7 @@
 /*
-ElDoktor
+Author : ElDoktor
+Group : GAIA
+Recherche le marker où se trouve l'unité
 unit call DOK_fnc_gaiaSearchZone;
 */
 private ["_mutex_zones","_zone","_size"];

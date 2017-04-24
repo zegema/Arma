@@ -1,0 +1,83 @@
+/*
+ElDoktor
+*/
+class CfgFunctions {
+    class DOK_SCRIPT {
+		tag = "DOK";
+		 class functions {
+            file="functions";
+            class DOKScriptInit{postInit = 1;};
+
+            //Log
+            class LOG;
+
+			//Artillerie
+			class artyAdd;
+			class artyCall;
+			class artyFire;
+
+			//Fouille de corps
+			class fouille;
+
+			//Otage
+			class otage;
+
+			//Civilian
+			class civilianPop;
+
+			//Renfort
+			class renfortInit;
+			class renfortAdd;
+			class renfortCall;
+
+			//Patrols
+			class patrolAdd;
+
+			//Ambush
+			class ambushAdd;
+
+			//Forftied
+			class fortifiedAdd;
+
+			//Unit wait for transport and getout
+			class waitForTransport;
+
+			//Detection onde radio
+			class detectRadio;
+
+			//Renfort sur des points précisé
+			class strikeBack;
+
+			//Intell
+			//class intellAdd;
+			//class intellAddLocal;
+
+			//Radio
+			class addEmetteur;
+			class checkRadio;
+			class addStackedEventHandler;
+			class removeStackedEventHandler;
+
+			//Exfiltration
+			class exfiltrationCall;
+			class exfiltrationExecute;
+			class exfiltrationGet;
+
+			//Gaia
+			class gaiaInit;
+			class gaiaAgressive;
+			class gaiaDefense;
+			class gaiaFortify;
+			class gaiaSearchZone;
+		};
+	};
+};
+
+class CfgSFX {
+ 	class DOK_Alarm {
+		name="DOK_Alarm";
+		DOK_Alarm[]={"sounds\alarm.ogg", 1.0, 1.0, 1000, 1, 0, 0, 0};
+		sounds[]={"DOK_Alarm"};
+		empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
+ 	};
+};

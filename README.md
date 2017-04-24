@@ -1,4 +1,4 @@
-# Arma
+# Arma 3 - Scripts
 
 In-mission scripts.
 Copy/Paste files in your mission's root.
